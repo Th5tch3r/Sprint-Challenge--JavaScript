@@ -29,29 +29,29 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-<br>
+<br/>
 The biggest difference between .forEach & .map is that .forEach doesn’t really return anything, it simply calls a provided function on each element on your array. This callback is allowed to mutate the calling array. Meanwhile .map will also call a provided function on each element on the array, but the difference is that .map uses the return values and actually returns a new array of the same size. 
-<br>
+<br/>
 
 2. What is the difference between a function and a method?
-<br>
+<br/>
 The difference between a function and a method is that a function is a piece of code that is called by name. It can be passed data to operate on and can optionally return data. All data that is passed to a function is explicitly passed. Method is identical to function except that a method is implicitly passed on the object which it was called. A method is able to operate on data that is contained within the class. 
-<br>
+<br/>
 
 3. What is closure?
-<br>
+<br/>
 A closure is the combination of a function bundled together with references to its surrounding state. In other words, a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created. 
-<br>
+<br/>
 
 4. Describe the four rules of the 'this' keyword.
-<br>
+<br/>
 The first one is that whenever a function is contained in the global scope, the value of this inside of that function will be the window object. The second one is that whenever a function is called by a preceding dot, the object before that dot is this. The third one is that whenever a constructor function is used, this refers to the specific instance of the object that is created and returned by the constructor function. The last one is that whenever JavaScript’s call or apply method is used, this is explicitly defined.
-<br>
+<br/>
 
 5. Why do we need super() in an extended class?
-<br>
+<br/>
 We need super() in an extended class because when they are used in a constructor,the super keyword appears alone and must be used before the this keyword is used. The super keyword are used to call functions on a parent object. 
-<br>
+<br/>
 
 ## Project Set up
 
